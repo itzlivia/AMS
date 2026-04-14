@@ -2,7 +2,7 @@
 
 :ROOT{
     /* Cores */
-    --cor-fundo: #D6D4AD;
+    --cor-fundo: #eae9d5;
     --cor-header: #CB8587;
     --cor-footer: #8E8B63;
     --cor-texto: #725C3F;
@@ -11,7 +11,7 @@
     --cor-branca: #fff;
     
     /* Fontes */
-    --fonte-padrao: Arial, TahomGreat Vibes Narvriy, Verdana;
+    --fonte-padrao: Arial, Great Vibes Narvriy, Verdana;
 
     /* Tamanhos */
     --fonte-base: 18px;
@@ -81,4 +81,49 @@ nav ul{
 ul li, ol li{
     margin-left: 40px;
     line-height: 30px;
+}
+
+footer p{
+    line-height: 25px;
+}
+
+footer{
+    width: 100%;
+    height: 25px;
+    background: var(--cor-footer);
+    color: var(--cor-branca);
+    position: absolute;
+    bottom: 0;
+    display: block;
+    clear: both;
+}
+
+h2{
+    line-height: 40px;
+}
+
+p, blockquote{
+    text-align: center;
+    line-height: 26px;
+}
+
+hr{
+    margin:var(--espaço-padrao);
+}
+
+img{
+    width: 85px;
+    position: relative;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+figure{
+    width: 105px;
+    height: 105px;
+    background:var(--cor-branca);
+    border-radius: 75px;
+    margin:var(--espaço-padrao) auto; 
+    border: 1px solid var(--cor-borda);
+    box-shadow: 0px 1px 2px var(--cor-sombra);
 }
