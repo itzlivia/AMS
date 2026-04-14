@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+:ROOT{
+    /* Cores */
+    --cor-fundo: #D6D4AD;
+    --cor-header: #CB8587;
+    --cor-footer: #8E8B63;
+    --cor-texto: #725C3F;
+    --cor-borda: #eddada;
+    --cor-sombra: #E5E0D8;
+    --cor-branca: #fff;
+    
+    /* Fontes */
+    --fonte-padrao: Arial, TahomGreat Vibes Narvriy, Verdana;
+
+    /* Tamanhos */
+    --fonte-base: 18px;
+    --line-base: 28px;
+    --radius: 5px;
+
+    /* Espacamentos */
+    --espaco-padrao: 10px;
+    }
+/* Configuração global(reset da página) */
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: var(--fonte-padrao) ;
+        font-size: var(--fonte-base);
+        line-height: var(--line-base);
+    }
+
+html, body{
+    height: 100%;
+    background: var(--cor-fundo);
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+section{
+    display: block;
+    width: 640px;
+    margin: auto;
+    padding: var(--espaco-padrao);
+}
+
+header{
+    width: 100%;
+    height: 50px;
+    background: var(--cor-header)
+}
+
+h1{
+    text-align: center;
+    line-height: 50px;
+    font-size: 25px;
+    color: var(--cor-branca)
+}
+
+nav a{
+    text-decoration: none;
+    color: var(cor --cor-texto);
+    font-weight: bold;
+}
+
+nav{
+    margin-top: var(--espaço-padrao);
+}
+
+nav a:hover{
+    color: var(--cor-footer);
+}
+
+nav ul{
+    list-style: none;
+}
+
+ul li, ol li{
+    margin-left: 40px;
+    line-height: 30px;
+}
