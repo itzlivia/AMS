@@ -12,7 +12,7 @@
     .dark {
         --cor-fundo: #121212; 
         --cor-header: #1f1f1f;
-        --cor-foother: #2c2c2c;
+        --cor-footer: #2c2c2c;
         --cor-texto: #f1f1f1;
         --cor-branco: #1e1e1e;
         --cor-borda: #444;
@@ -29,7 +29,7 @@
         color: var(--cor-texto);
     }
 
-    heade{
+    header {
         background: var(--cor-header);
     }
 
@@ -37,8 +37,8 @@
         color: var(--cor-texto);
     }
 
-    footer{
-        background: var(--cor-foother);
+    footer {
+        background: var(--cor-footer);
         color: var(--cor-texto);
     }
 
