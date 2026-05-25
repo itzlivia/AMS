@@ -9,7 +9,7 @@
     --cor-borda: #eddada;
     --cor-sombra: #E5E0D8;
     --cor-branca: #fff;
-    
+    --bg-image: url('../imagens/Bíblia.sol.JPEG.jpeg')
     /* Fontes */
     --fonte-padrao: Arial, Great Vibes Narvriy, Verdana;
 
@@ -21,7 +21,9 @@
     /* Espacamentos */
     --espaco-padrao: 10px;
     }
-/* Configuração global(reset da página) */
+
+    /* Configuração global(reset da página) */
+
     *{
         margin: auto;
         padding: 0;
@@ -32,7 +34,14 @@
 
 html, body{
     height: 100%;
-    background: var(--cor-fundo);
+   /* background: var(--cor-fundo); */
+    background:
+       linear-gradient(
+        rgba(255, 255, 255, var(--overlay-opacity)),
+        rgba(255, 255, 255, var(--overlay-opacity))
+       ),
+       var(--bg-image) no-repeat center center fixed;
+       background-size: cover;
 }
 
 main{
@@ -127,3 +136,4 @@ figure {
     border: 1px solid var (--cor-borda);
     box-shadow: 0px 1px 2px var(--cor-sombra);
 }
+
