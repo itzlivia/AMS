@@ -45,3 +45,4 @@ const botao = document.getElementById ("tema");
             updateButtonIcon();
         });
     }
+

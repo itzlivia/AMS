@@ -9,7 +9,8 @@
     --cor-borda: #eddada;
     --cor-sombra: #E5E0D8;
     --cor-branca: #fff;
-    --bg-image: url('../imagens/Bíblia.sol.JPEG.jpeg')
+    --bg-image: url('../imagens/Bíblia.sol.JPEG.jpeg');
+    --overlay-opacity: 0.2;
     /* Fontes */
     --fonte-padrao: Arial, Great Vibes Narvriy, Verdana;
 
@@ -36,12 +37,12 @@ html, body{
     height: 100%;
    /* background: var(--cor-fundo); */
     background:
-       linear-gradient(
-        rgba(255, 255, 255, var(--overlay-opacity)),
-        rgba(255, 255, 255, var(--overlay-opacity))
-       ),
-       var(--bg-image) no-repeat center center fixed;
-       background-size: cover;
+    linear-gradient(
+            rgba(255, 255, 255,  var(--overlay-opacity)),
+            rgba(255, 255, 255,  var(--overlay-opacity))
+        ),
+        var(--bg-image) no-repeat center center fixed;
+        background-size: cover;
 }
 
 main{
