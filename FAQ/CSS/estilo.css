@@ -1,0 +1,85 @@
+/* VARIÁVEIS */
+:root{
+    --cor-principal: #d6185a;
+    --cor-hover: #e556a7;
+    --cor-voltar:#E63986;
+    --cor-fundo: #eadee6; 
+    --cor-texto:#300e26;
+}
+
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GERAL */
+header {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+/* TOPO */
+header {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header h1 {
+    color: var(--cor-fundo);
+}
+
+/* CONTEUDO */
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+}
+
+/* GERAL */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    line-height: 1.6;
+    scroll-behavior: smooth;
+}
+
+/* MENU */
+nav a {
+    color: var(--cor-fundo);
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: var(--cor-hover) !important;
+}
+
+/* VOLTAR */
+.voltar {
+    text-decoration: none;
+    color: var(--cor-principal);
+    font-weight: bold;
+    transition: 0.3;
+}
+.voltar:hover {
+    color: var(--cor-voltar);
+}
+
+/* RODAPÉ */
+footer {
+    background-color: var(--cor-principal);
+    color: var(--cor-fundo);
+    text-align: center;
+    padding: 20px;
+}
